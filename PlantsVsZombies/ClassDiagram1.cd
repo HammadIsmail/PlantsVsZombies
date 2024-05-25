@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlantsVsZombies.BL.Collision">
+    <Position X="3.25" Y="11.25" Width="1.5" />
+    <AssociationLine Name="Composition" Type="PlantsVsZombies.Level1Form" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="11.25" />
+        <Point X="4" Y="10.596" />
+        <Point X="3.521" Y="10.596" Type="JumpStart" />
+        <Point X="3.354" Y="10.596" Type="JumpEnd" />
+        <Point X="3.208" Y="10.596" Type="JumpStart" />
+        <Point X="3.01" Y="10.596" Type="JumpEnd" />
+        <Point X="1.911" Y="10.596" Type="JumpStart" />
+        <Point X="1.745" Y="10.596" Type="JumpEnd" />
+        <Point X="1.65" Y="10.596" Type="JumpStart" />
+        <Point X="1.483" Y="10.596" Type="JumpEnd" />
+        <Point X="1.305" Y="10.596" />
+        <Point X="1.305" Y="10.041" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.109" Y="0.102" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CompositioN" Type="PlantsVsZombies.Level2Form">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.225" Y="1.143" Height="0.182" Width="1.139" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CompositiOn" Type="PlantsVsZombies.Level3Form">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.204" Y="0.925" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAABIAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Collision.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+      <Property Name="CompositioN" />
+      <Property Name="CompositiOn" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.BL.GameOver">
+    <Position X="7.75" Y="8.25" Width="1.5" />
+    <AssociationLine Name="CompositiOn" Type="PlantsVsZombies.Level2Form" ManuallyRouted="true">
+      <Path>
+        <Point X="8.094" Y="10.2" />
+        <Point X="8.094" Y="10.366" />
+        <Point X="6.083" Y="10.366" Type="JumpStart" />
+        <Point X="5.917" Y="10.366" Type="JumpEnd" />
+        <Point X="5.833" Y="10.366" Type="JumpStart" />
+        <Point X="5.667" Y="10.366" Type="JumpEnd" />
+        <Point X="5.427" Y="10.366" Type="JumpStart" />
+        <Point X="5.26" Y="10.366" Type="JumpEnd" />
+        <Point X="3.75" Y="10.366" />
+        <Point X="3.75" Y="10.041" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-4.036" Y="-0.263" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAACCAAAEAAgAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\GameOver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+      <Property Name="CompositiOn" />
+      <Property Name="CompositioN" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.BL.Plant">
+    <Position X="5.5" Y="11" Width="1.5" />
+    <AssociationLine Name="Composition" Type="PlantsVsZombies.Level1Form" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="11" />
+        <Point X="6.25" Y="10.804" />
+        <Point X="6.083" Y="10.804" Type="JumpStart" />
+        <Point X="5.917" Y="10.804" Type="JumpEnd" />
+        <Point X="5.833" Y="10.804" Type="JumpStart" />
+        <Point X="5.667" Y="10.804" Type="JumpEnd" />
+        <Point X="5.427" Y="10.804" Type="JumpStart" />
+        <Point X="5.26" Y="10.804" Type="JumpEnd" />
+        <Point X="4.083" Y="10.804" Type="JumpStart" />
+        <Point X="3.917" Y="10.804" Type="JumpEnd" />
+        <Point X="3.521" Y="10.804" Type="JumpStart" />
+        <Point X="3.354" Y="10.804" Type="JumpEnd" />
+        <Point X="3.208" Y="10.804" Type="JumpStart" />
+        <Point X="3.01" Y="10.804" Type="JumpEnd" />
+        <Point X="1.828" Y="10.804" />
+        <Point X="1.828" Y="10.041" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-5.546" Y="0.664" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CompositioN" Type="PlantsVsZombies.Level2Form" ManuallyRouted="true">
+      <Path>
+        <Point X="5.5" Y="11.047" />
+        <Point X="5.333" Y="11.047" Type="JumpStart" />
+        <Point X="5.167" Y="11.047" Type="JumpEnd" />
+        <Point X="4.716" Y="11.047" />
+        <Point X="4.716" Y="11.203" />
+        <Point X="3.125" Y="11.203" />
+        <Point X="3.125" Y="10.041" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.131" Y="-0.211" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CompositIon" Type="PlantsVsZombies.Level3Form">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.067" Y="0.091" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAACCAAAAAAAgAAAAAAAAAAAAAAAAAACAI=</HashCode>
+      <FileName>BL\Plant.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+      <Property Name="CompositioN" />
+      <Property Name="CompositIon" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.BL.Sun">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <AssociationLine Name="Composition" Type="PlantsVsZombies.Level1Form" ManuallyRouted="true">
+      <Path>
+        <Point X="7.75" Y="6.206" />
+        <Point X="7.396" Y="6.206" />
+        <Point X="7.396" Y="4.031" />
+        <Point X="6.677" Y="4.031" Type="JumpStart" />
+        <Point X="6.51" Y="4.031" Type="JumpEnd" />
+        <Point X="1.656" Y="4.031" />
+        <Point X="1.656" Y="4.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.067" Y="0.07" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CompositiOn" Type="PlantsVsZombies.Level2Form" ManuallyRouted="true">
+      <Path>
+        <Point X="7.75" Y="5.446" />
+        <Point X="7.479" Y="5.446" Type="JumpStart" />
+        <Point X="7.312" Y="5.446" Type="JumpEnd" />
+        <Point X="7" Y="5.446" />
+        <Point X="7" Y="4.365" />
+        <Point X="5.677" Y="4.365" Type="JumpStart" />
+        <Point X="5.51" Y="4.365" Type="JumpEnd" />
+        <Point X="4.156" Y="4.365" />
+        <Point X="4.156" Y="4.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-3.494" Y="-0.565" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAIAAAACCAgAABAQAAAAAEAAAEgAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Sun.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+      <Property Name="CompositiOn" />
+      <Property Name="CompositioN" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.BL.Zombies">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <AssociationLine Name="Composition" Type="PlantsVsZombies.Level1Form">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.005" Y="0.07" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CompositioN" Type="PlantsVsZombies.Level2Form">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="1.383" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CompositiOn" Type="PlantsVsZombies.Level3Form" ManuallyRouted="true">
+      <Path>
+        <Point X="1.002" Y="11" />
+        <Point X="1.002" Y="10.906" />
+        <Point X="1.483" Y="10.906" Type="JumpStart" />
+        <Point X="1.65" Y="10.906" Type="JumpEnd" />
+        <Point X="3.01" Y="10.906" Type="JumpStart" />
+        <Point X="3.208" Y="10.906" Type="JumpEnd" />
+        <Point X="3.354" Y="10.906" Type="JumpStart" />
+        <Point X="3.521" Y="10.906" Type="JumpEnd" />
+        <Point X="3.917" Y="10.906" Type="JumpStart" />
+        <Point X="4.083" Y="10.906" Type="JumpEnd" />
+        <Point X="5.75" Y="10.906" />
+        <Point X="5.75" Y="10.041" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="4.725" Y="0.695" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAIAAAACCAABAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>BL\Zombies.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+      <Property Name="CompositioN" />
+      <Property Name="CompositiOn" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.StartForm">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAECAAkAACAAAECAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.Level1Form">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Composition" Type="PlantsVsZombies.LevelScreenForm" ManuallyRouted="true">
+      <Path>
+        <Point X="1.25" Y="4.5" />
+        <Point X="1.25" Y="3.969" />
+        <Point X="6.51" Y="3.969" Type="JumpStart" />
+        <Point X="6.677" Y="3.969" Type="JumpEnd" />
+        <Point X="7" Y="3.969" />
+        <Point X="7" Y="3.723" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.537" Y="0.029" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>GCABgOAckDoMCOBgAACGAqOCgUGIEKAaAFEMMFIEYCc=</HashCode>
+      <FileName>Level1Form.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.Level2Form">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Composition" Type="PlantsVsZombies.LevelScreenForm" ManuallyRouted="true">
+      <Path>
+        <Point X="3.75" Y="4.5" />
+        <Point X="3.75" Y="4.24" />
+        <Point X="5.51" Y="4.24" Type="JumpStart" />
+        <Point X="5.677" Y="4.24" Type="JumpEnd" />
+        <Point X="6.594" Y="4.24" />
+        <Point X="6.594" Y="3.723" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.839" Y="0.498" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>GCABgOAcgDoMCOBgAACGAqOCgUGIEKAaAFEMMFIEYCc=</HashCode>
+      <FileName>Level2Form .cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.Level3Form">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Composition" Type="PlantsVsZombies.LevelScreenForm" ManuallyRouted="true">
+      <Path>
+        <Point X="5.594" Y="4.5" />
+        <Point X="5.594" Y="3.988" />
+        <Point X="5.323" Y="3.988" />
+        <Point X="5.323" Y="2.948" />
+        <Point X="6.25" Y="2.948" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>GCABgOAckDoMCOBgAACGAqOCgUGIEKAaAFEMMFIEYCc=</HashCode>
+      <FileName>Level3Form.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.LevelScreenForm">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEACAECAAgAACAAAECAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>LevelScreenForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Composition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlantsVsZombies.LoadingForm">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAEAAAgAACAAAACACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoadingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
